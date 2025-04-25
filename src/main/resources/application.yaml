@@ -1,0 +1,15 @@
+ktor:
+    application:
+        modules:
+            - com.example.ApplicationKt.module
+    deployment:
+        port: 8080
+
+    database:
+        driverClassName: "com.mysql.cj.jdbc.Driver"
+        jdbcUrl: "jdbc:mysql://localhost:3306/chat"
+        user: "root"
+        password: "Jeffxddowdowdow1234@"
+
+    jwt:
+        key: "Zoe0X6328vCUJ8c6UNGbDj9F149uQiMNix/tdfYcGzs="
